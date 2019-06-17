@@ -67,6 +67,10 @@ export {
 } from './resources/binding-behaviors/update-trigger';
 
 export {
+  Portal,
+} from './resources/custom-attributes/portal';
+
+export {
   Subject,
   Compose
 } from './resources/custom-elements/compose';
@@ -82,6 +86,7 @@ export {
   AttrBindingBehaviorRegistration,
   SelfBindingBehaviorRegistration,
   UpdateTriggerBindingBehaviorRegistration,
+  PortalRegistration,
   ComposeRegistration,
 
   DefaultResources,
