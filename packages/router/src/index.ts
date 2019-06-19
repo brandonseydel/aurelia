@@ -71,9 +71,9 @@
 //   ViewportContent,
 // } from './viewport-content';
 
-export {
-  ViewportInstruction,
-} from './viewport-instruction';
+// export {
+//   ViewportInstruction,
+// } from './viewport-instruction';
 
 // export {
 //   RouterConfiguration,
