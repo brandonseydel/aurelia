@@ -7,6 +7,8 @@ import { terser } from 'rollup-plugin-terser';
 import typescript2 from 'rollup-plugin-typescript2';
 import * as rollup from 'rollup';
 import ts from 'typescript';
+import * as rimraf from 'rimraf';
+import * as path from 'path';
 import { readFileSync } from 'fs';
 
 const log = createLogger('bundle');
@@ -232,6 +234,8 @@ async function createBundle(): Promise<void> {
   let cur = 0;
   for (const pkg of packages) {
     const logPrefix = c.grey(`[${++cur}/${count}] ${pkg.name.npm}`);
+
+    rimraf.sync(path.join(project.path, '.rpt2_cache'));
 
     const external = [
       'jsdom',
