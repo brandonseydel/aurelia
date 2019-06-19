@@ -7,12 +7,12 @@
 //   HistoryBrowser,
 // } from './history-browser';
 
-// export {
-//   ILinkHandlerOptions,
-//   AnchorEventInfo,
+export {
+  ILinkHandlerOptions,
+  AnchorEventInfo,
 
-//   LinkHandler,
-// } from './link-handler';
+  LinkHandler,
+} from './link-handler';
 
 // export {
 //   IViewportComponent,
