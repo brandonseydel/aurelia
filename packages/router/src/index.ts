@@ -14,74 +14,74 @@ export {
   LinkHandler,
 } from './link-handler';
 
-// export {
-//   IViewportComponent,
-//   NavInstruction,
-//   INavRoute,
-//   Nav,
-// } from './nav';
+export {
+  IViewportComponent,
+  NavInstruction,
+  INavRoute,
+  Nav,
+} from './nav';
 
-// export {
-//   QueuedBrowserHistory,
-// } from './queued-browser-history';
+export {
+  QueuedBrowserHistory,
+} from './queued-browser-history';
 
-// export {
-//   RouteHandler,
-//   ConfigurableRoute,
-//   HandlerEntry,
-//   RouteGenerator,
-//   TypesRecord,
-//   RecognizeResult,
-//   RecognizeResults,
-//   CharSpec,
-//   State,
-//   StaticSegment,
-//   DynamicSegment,
-//   StarSegment,
-//   EpsilonSegment,
-//   Segment,
-//   RouteRecognizer,
-// } from './route-recognizer';
+export {
+  RouteHandler,
+  ConfigurableRoute,
+  HandlerEntry,
+  RouteGenerator,
+  TypesRecord,
+  RecognizeResult,
+  RecognizeResults,
+  CharSpec,
+  State,
+  StaticSegment,
+  DynamicSegment,
+  StarSegment,
+  EpsilonSegment,
+  Segment,
+  RouteRecognizer,
+} from './route-recognizer';
 
-// export {
-//   IRouteTransformer,
-//   IRouterOptions,
-//   IRouteViewport,
-//   IRouter,
-//   Router,
-// } from './router';
+export {
+  IRouteTransformer,
+  IRouterOptions,
+  IRouteViewport,
+  IRouter,
+  Router,
+} from './router';
 
-// export {
-//   IViewportCustomElementType,
-//   IFindViewportsResult,
-//   ChildContainer,
-//   Scope,
-// } from './scope';
+export {
+  IViewportCustomElementType,
+  IFindViewportsResult,
+  ChildContainer,
+  Scope,
+} from './scope';
 
-// export {
-//   IViewportOptions,
-//   Viewport,
-// } from './viewport';
+export {
+  IViewportOptions,
+  Viewport,
+} from './viewport';
 
-// export {
-//   IRouteableCustomElement,
-//   IRouteableCustomElementType,
-//   ContentStatus,
-//   ReentryBehavior,
-//   ViewportContent,
-// } from './viewport-content';
+export {
+  IRouteableCustomElement,
+  IRouteableCustomElementType,
+  ContentStatus,
+  ReentryBehavior,
+  ViewportContent,
+} from './viewport-content';
 
-// export {
-//   ViewportInstruction,
-// } from './viewport-instruction';
+export {
+  ViewportInstruction,
+} from './viewport-instruction';
 
-// export {
-//   RouterConfiguration,
-//   RouterRegistration,
-//   DefaultComponents,
-//   DefaultResources,
-//   ViewportCustomElement,
-//   ViewportCustomElementRegistration,
-//   NavCustomElement,
-//   NavCustomElementRegistration,
-// } from './configuration';
+export {
+  RouterConfiguration,
+  RouterRegistration,
+  DefaultComponents,
+  DefaultResources,
+  ViewportCustomElement,
+  ViewportCustomElementRegistration,
+  NavCustomElement,
+  NavCustomElementRegistration,
+} from './configuration';
