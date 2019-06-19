@@ -9,7 +9,6 @@ import * as rollup from 'rollup';
 import ts from 'typescript';
 import { readFileSync } from 'fs';
 
-
 const log = createLogger('bundle');
 
 async function getTerserOptions() {
@@ -263,6 +262,7 @@ async function createBundle(): Promise<void> {
 
     log(`${logPrefix} creating standalone bundle`);
     const standaloneBundle = await rollup.rollup({
+      cache: false,
       input: pkg.src.entry,
       plugins,
       external
