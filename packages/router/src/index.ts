@@ -1,11 +1,11 @@
-// export {
-//   IHistoryEntry,
-//   IHistoryOptions,
-//   INavigationFlags,
-//   INavigationInstruction,
+export {
+  IHistoryEntry,
+  IHistoryOptions,
+  INavigationFlags,
+  INavigationInstruction,
 
-//   HistoryBrowser,
-// } from './history-browser';
+  HistoryBrowser,
+} from './history-browser';
 
 export {
   ILinkHandlerOptions,
